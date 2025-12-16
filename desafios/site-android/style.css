@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+
+body{
+    margin: 0px;
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3cd883, #175031);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    text-align: center;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header>p{
+    color: rgb(204, 204, 204);
+    padding: 10px;
+}
+
+header>h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+
+h1,h2{
+    font-family: "idroid";
+    color: #175031;
+}
+
+h2{
+    background-image: linear-gradient(to right, #a7ffce, white);
+    padding-left: 5px;
+}
+
+
+nav{
+    text-align: left;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    transition: 0.3s;
+}
+
+nav>a:hover{
+    color: #3cd883;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.226);
+}
+
+main a{
+     color: #0b8843;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a::after {
+    content: "\1F517 ";
+   
+}
+
+p{
+    text-indent: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+strong{
+    color: #0b8843;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.video{
+    background-color: #175031;
+    margin: 0px -15px 0px -15px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90% ;
+    height: 90% ;
+}
+
+h3{
+    color: white;
+    background-color: #3cd883;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.lista{
+    background-color: #c1f7d8;
+    border-radius: 0px 0px 10px 10px ;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;  
+    columns: 2;
+}
+
+li::marker{
+    content: "\2705";
+}
+
+footer{
+    margin: auto;
+    background-color: #175031;
+    margin: 0px;
+}
+
+footer p {
+    margin-bottom: 0px;
+    text-align: center;
+position: ;}
+
+

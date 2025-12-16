@@ -1,0 +1,7 @@
+body{
+    background-image: linear-gradient(to right, white, blue);
+}
+
+/*se quiser usar gradiente redondo pode usar o radial antes do linear graidient no codigo*/
+
+/*é assim que se usa o degrade em css*/
