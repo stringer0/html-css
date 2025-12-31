@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 230, 230);
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+ul{
+    background-color: rgb(170, 170, 170);
+    columns: 3;
+    border-radius: 10px;
+    box-shadow: 4px 2px 1px 1px rgba(0, 0, 0, 0.089);
+}
+
+li{
+    padding: 5px;
+    
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
+iframe{
+    width: 95vw;
+    height: 55vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
